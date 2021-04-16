@@ -1,0 +1,146 @@
+Q.2)
+
+Enter the number of variables: 3
+Enter the number of constraint equations: 2
+Enter coefficient matrix for constraints :
+
+1 1 0
+2 0 1
+
+Enter the type of each constraint. Type (1 for <= type) , (2 for >= type) , (3 for = type) :
+2 1
+
+Enter the RHS vector for constraints :
+2 5
+
+Enter the coefficients of objective function :
+4 8 3
+
+Enter 1 if it is a maximization problem, and enter -1 if it is a minimization problem : -1
+
+#############################################################
+
+Enter 1 to view intitial tableau
+Enter 2 to see the list of basic and non-basic variables of ith iteration
+Enter 3 to print table of ith iteration
+Enter 4 to view the optimal solution
+Enter 5 to view the final tableau
+Enter 6 to Exit
+
+#############################################################
+
+Enter your choice : 1
+
+
+Initial Tableau :
+
+
+  Basic      X1       X2       X3     slack1   slack2    Soln
+    Z      -4.000   -8.000   -3.000    0.000    0.000    0.000
+  slack1   -1.000   -1.000   -0.000    1.000    0.000   -2.000
+  slack2    2.000    0.000    1.000    0.000    1.000    5.000
+
+#############################################################
+
+Enter 1 to view intitial tableau
+Enter 2 to see the list of basic and non-basic variables of ith iteration
+Enter 3 to print table of ith iteration
+Enter 4 to view the optimal solution
+Enter 5 to view the final tableau
+Enter 6 to Exit
+
+#############################################################
+
+Enter your choice : 2
+
+
+Enter the iteration number : 0
+
+Basic variables after iteration 0 :
+  slack1  =   -2.000
+  slack2  =    5.000
+
+
+Non-Basic variables after iteration 0 :
+    X1       X2       X3
+
+#############################################################
+
+Enter 1 to view intitial tableau
+Enter 2 to see the list of basic and non-basic variables of ith iteration
+Enter 3 to print table of ith iteration
+Enter 4 to view the optimal solution
+Enter 5 to view the final tableau
+Enter 6 to Exit
+
+#############################################################
+
+Enter your choice : 2
+
+
+Enter the iteration number : 1
+
+Basic variables after iteration 1 :
+    X1    =    2.000
+  slack2  =    1.000
+
+
+Non-Basic variables after iteration 1 :
+    X2       X3     slack1
+
+#############################################################
+
+Enter 1 to view intitial tableau
+Enter 2 to see the list of basic and non-basic variables of ith iteration
+Enter 3 to print table of ith iteration
+Enter 4 to view the optimal solution
+Enter 5 to view the final tableau
+Enter 6 to Exit
+
+#############################################################
+
+Enter your choice : 5
+
+
+Final Tableau :
+
+
+  Basic      X1       X2       X3     slack1   slack2    Soln
+    Z       0.000   -4.000   -3.000   -4.000    0.000    8.000
+    X1      1.000    1.000    0.000   -1.000   -0.000    2.000
+  slack2    0.000   -2.000    1.000    2.000    1.000    1.000
+
+#############################################################
+
+Enter 1 to view intitial tableau
+Enter 2 to see the list of basic and non-basic variables of ith iteration
+Enter 3 to print table of ith iteration
+Enter 4 to view the optimal solution
+Enter 5 to view the final tableau
+Enter 6 to Exit
+
+#############################################################
+
+Enter your choice : 4
+
+
+The minimum value of the expression 4.00x1 + 8.00x2 + 3.00x3  is = 8.000000
+
+Obtained for the following values of xi :
+[ 2.000000 , 0.000000 , 0.000000 ]
+
+#############################################################
+
+Enter 1 to view intitial tableau
+Enter 2 to see the list of basic and non-basic variables of ith iteration
+Enter 3 to print table of ith iteration
+Enter 4 to view the optimal solution
+Enter 5 to view the final tableau
+Enter 6 to Exit
+
+#############################################################
+
+Enter your choice : 6
+
+
+Exiting ....

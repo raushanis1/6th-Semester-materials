@@ -1,0 +1,79 @@
+Q.4)
+
+Enter the number of variables: 3
+Enter the number of constraint equations: 3
+Enter coefficient matrix for constraints :
+
+2 2 -1
+3 -4 0
+0 1 3
+
+Enter the type of each constraint. Type (1 for <= type) , (2 for >= type) , (3 for = type) :
+2 1 1
+
+Enter the RHS vector for constraints :
+2 3 3
+
+Enter the coefficients of objective function :
+5 -2 3
+
+Enter 1 if it is a maximization problem, and enter -1 if it is a minimization problem : 1
+
+#############################################################
+
+Enter 1 to view intitial tableau
+Enter 2 to see the list of basic and non-basic variables of ith iteration
+Enter 3 to print table of ith iteration
+Enter 4 to view the optimal solution
+Enter 5 to view the final tableau
+Enter 6 to Exit
+
+#############################################################
+
+Enter your choice : 1
+
+
+Initial Tableau :
+
+
+  Basic      X1       X2       X3     slack1   slack2   slack3    Soln
+    Z       5.000   -2.000    3.000    0.000    0.000    0.000    0.000
+  slack1   -2.000   -2.000    1.000    1.000    0.000    0.000   -2.000
+  slack2    3.000   -4.000    0.000    0.000    1.000    0.000    3.000
+  slack3    0.000    1.000    3.000    0.000    0.000    1.000    3.000
+
+#############################################################
+
+Enter 1 to view intitial tableau
+Enter 2 to see the list of basic and non-basic variables of ith iteration
+Enter 3 to print table of ith iteration
+Enter 4 to view the optimal solution
+Enter 5 to view the final tableau
+Enter 6 to Exit
+
+#############################################################
+
+
+Enter your choice : 4
+
+
+The maximum value of the expression 5x1 + -2x2 + 3x3  is = 19.000000
+
+Obtained for the following values of xi :
+[ 5.000000 , 3.000000 , 0.000000 ]
+
+#############################################################
+
+Enter 1 to view intitial tableau
+Enter 2 to see the list of basic and non-basic variables of ith iteration
+Enter 3 to print table of ith iteration
+Enter 4 to view the optimal solution
+Enter 5 to view the final tableau
+Enter 6 to Exit
+
+#############################################################
+
+Enter your choice : 6
+
+
+Exiting ....

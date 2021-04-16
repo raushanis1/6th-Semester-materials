@@ -1,0 +1,47 @@
+Q1)
+
+Enter the number of variables: 2
+Enter the number of constraint equations: 3
+Enter coefficient matrix for constraints :
+
+1 4
+3 1
+1 1
+
+Enter the signs of each constraint.
+Enter 1 if it is <= type, and 2 if it is >= type :
+1 1 1
+
+Enter the RHS vector for constraints :
+24 21 9
+
+Enter the coefficients of objective function :
+2 5
+
+Enter 1 if it is a maximization problem, and enter 2 if it is a minimization problem : 1
+
+Basic Feasible Solution :
+0.00000 0.00000 24.00000 21.00000 9.00000
+Value of Z at this point = 0.00000
+
+
+Basic Feasible Solution :
+0.00000 6.00000 0.00000 15.00000 3.00000
+Value of Z at this point = 30.00000
+
+
+Basic Feasible Solution :
+7.00000 0.00000 17.00000 0.00000 2.00000
+Value of Z at this point = 14.00000
+
+
+Basic Feasible Solution :
+4.00000 5.00000 0.00000 4.00000 0.00000
+Value of Z at this point = 33.00000
+
+
+Basic Feasible Solution :
+6.00000 3.00000 6.00000 0.00000 0.00000
+Value of Z at this point = 27.00000
+
+Optimum value of Z = 33.00000

@@ -1,0 +1,124 @@
+Q.3)
+
+Enter the number of strategies of A : 2
+
+Enter the number of strategies of B : 4
+
+Enter the pay-off matrix for A :
+
+4 0 6 -2
+2 6 1 7
+
+Payoff Table for A :
+
+       B1    B2    B3    B4
+ A1     4     0     6    -2
+ A2     2     6     1     7
+
+
+Table with Row minimums and Column maximums :
+
+           B1    B2    B3    B4   Row min
+     A1     4     0     6    -2     -2
+     A2     2     6     1     7      1
+ Col max    4     6     6     7
+
+Maximum of the row minimums = 1
+Minimum of the col maximums = 4
+
+This is an Unstable game. Saddle point does not exist. So we have to go for mixed strategies ...
+We now apply BigM method to solve the corresponding optimization problem for A and B
+
+-------------------------------------------------------------
+Solving the game for player A
+-------------------------------------------------------------
+
+Simplex Tableau after iteration 0 :
+
+  Basic      X1       X2     slack1  slack2  slack3  slack4 Solution
+    Z       -1.00   -0.00    0.00    0.00    0.00    0.00    0.00
+  slack1     1.00   -2.00    1.00    0.00    0.00    0.00    2.00
+  slack2     1.00    6.00    0.00    1.00    0.00    0.00    6.00
+  slack3     1.00   -5.00    0.00    0.00    1.00    0.00    1.00
+  slack4     1.00    9.00    0.00    0.00    0.00    1.00    7.00
+
+
+
+Simplex Tableau after iteration 1 :
+
+  Basic      X1       X2     slack1  slack2  slack3  slack4 Solution
+    Z        0.00   -5.00    0.00    0.00    1.00    0.00    1.00
+  slack1     0.00    3.00    1.00    0.00   -1.00    0.00    1.00
+  slack2     0.00   11.00    0.00    1.00   -1.00    0.00    5.00
+    X1       1.00   -5.00    0.00    0.00    1.00    0.00    1.00
+  slack4     0.00   14.00    0.00    0.00   -1.00    1.00    6.00
+
+
+
+Simplex Tableau after iteration 2 :
+
+  Basic      X1       X2     slack1  slack2  slack3  slack4 Solution
+    Z        0.00    0.00    1.67    0.00   -0.67    0.00    2.67
+    X2       0.00    1.00    0.33    0.00   -0.33    0.00    0.33
+  slack2     0.00    0.00   -3.67    1.00    2.67    0.00    1.33
+    X1       1.00    0.00    1.67    0.00   -0.67    0.00    2.67
+  slack4     0.00    0.00   -4.67    0.00    3.67    1.00    1.33
+
+
+
+Simplex Tableau after iteration 3 :
+
+  Basic      X1       X2     slack1  slack2  slack3  slack4 Solution
+    Z        0.00    0.00    0.82    0.00    0.00    0.18    2.91
+    X2       0.00    1.00   -0.09    0.00    0.00    0.09    0.45
+  slack2     0.00    0.00   -0.27    1.00    0.00   -0.73    0.36
+    X1       1.00    0.00    0.82    0.00    0.00    0.18    2.91
+  slack3     0.00    0.00   -1.27    0.00    1.00    0.27    0.36
+
+
+The optimal value of the game for A is : 2.909091
+
+With probabilities for strategies : [  A1 : 0.454545 , A2 : 0.545455]
+
+-------------------------------------------------------------
+Now solving the game for player B
+-------------------------------------------------------------
+
+Simplex Tableau after iteration 0 :
+
+  Basic      X1       X2      X3      X4     slack1  slack2 Solution
+    Z       -1.00   -0.00   -0.00   -0.00    0.00    0.00    0.00
+  slack1     1.00    6.00    2.00    8.00    1.00    0.00    2.00
+  slack2     1.00   -5.00   -1.00   -6.00    0.00    1.00   -7.00
+
+
+
+Simplex Tableau after iteration 1 :
+
+  Basic      X1       X2      X3      X4     slack1  slack2 Solution
+    Z        0.00   -5.00   -1.00   -6.00    0.00    1.00   -7.00
+  slack1     0.00   11.00    3.00   14.00    1.00   -1.00    9.00
+    X1       1.00   -5.00   -1.00   -6.00    0.00    1.00   -7.00
+
+
+
+Simplex Tableau after iteration 2 :
+
+  Basic      X1       X2      X3      X4     slack1  slack2 Solution
+    Z        0.00   -0.29    0.29    0.00    0.43    0.57   -3.14
+    X4       0.00    0.79    0.21    1.00    0.07   -0.07    0.64
+    X1       1.00   -0.29    0.29    0.00    0.43    0.57   -3.14
+
+
+
+Simplex Tableau after iteration 3 :
+
+  Basic      X1       X2      X3      X4     slack1  slack2 Solution
+    Z        0.00    0.00    0.36    0.36    0.45    0.55   -2.91
+    X2       0.00    1.00    0.27    1.27    0.09   -0.09    0.82
+    X1       1.00    0.00    0.36    0.36    0.45    0.55   -2.91
+
+
+The optimal value of the game for B is : 2.909091
+
+With probabilities for strategies : [  B1 : 0.818182 , B2 : 0.000000 , B3 : 0.000000 , B4 : 0.181818]

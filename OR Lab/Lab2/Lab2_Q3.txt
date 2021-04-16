@@ -1,0 +1,77 @@
+Q3)
+
+Enter the number of variables: 3
+Enter the number of constraint equations: 3
+Enter coefficient matrix for constraints :
+
+-1 1 0
+0 -1 2
+1 1 1
+
+Enter the signs of each constraint.
+Enter 1 if it is <= type, and 2 if it is >= type :
+1 1 1
+
+Enter the RHS vector for constraints :
+0 0 100
+
+Enter the coefficients of objective function :
+12 15 14
+
+Enter 1 if it is a maximization problem, and enter 2 if it is a minimization problem : 1
+
+Basic Feasible Solution :
+0.00000 0.00000 0.00000 0.00000 0.00000 100.00000
+Value of Z at this point = 0.00000
+
+
+Basic Feasible Solution :
+0.00000 0.00000 0.00000 0.00000 0.00000 100.00000
+Value of Z at this point = 0.00000
+
+
+Basic Feasible Solution :
+0.00000 0.00000 0.00000 0.00000 0.00000 100.00000
+Value of Z at this point = 0.00000
+
+
+Basic Feasible Solution :
+0.00000 0.00000 0.00000 0.00000 0.00000 100.00000
+Value of Z at this point = 0.00000
+
+
+Basic Feasible Solution :
+0.00000 0.00000 0.00000 0.00000 0.00000 100.00000
+Value of Z at this point = 0.00000
+
+
+Basic Feasible Solution :
+0.00000 0.00000 0.00000 0.00000 0.00000 100.00000
+Value of Z at this point = 0.00000
+
+
+Basic Feasible Solution :
+0.00000 0.00000 0.00000 0.00000 0.00000 100.00000
+Value of Z at this point = 0.00000
+
+
+Basic Feasible Solution :
+50.00000 50.00000 0.00000 0.00000 50.00000 0.00000
+Value of Z at this point = 1350.00000
+
+
+Basic Feasible Solution :
+100.00000 0.00000 0.00000 100.00000 0.00000 0.00000
+Value of Z at this point = 1200.00000
+
+
+Basic Feasible Solution :
+100.00000 0.00000 0.00000 100.00000 0.00000 0.00000
+Value of Z at this point = 1200.00000
+
+
+Basic Feasible Solution :
+40.00000 40.00000 20.00000 0.00000 0.00000 0.00000
+Value of Z at this point = 1360.00000
+
+Optimum value of Z = 1360.00000

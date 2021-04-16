@@ -1,0 +1,98 @@
+Q.1)
+
+Enter the number of strategies of A : 2
+
+Enter the number of strategies of B : 2
+
+Enter the pay-off matrix for A :
+
+5 2
+3 4
+
+Payoff Table for A :
+
+       B1    B2
+ A1     5     2
+ A2     3     4
+
+
+Table with Row minimums and Column maximums :
+
+           B1    B2   Row min
+     A1     5     2     2
+     A2     3     4     3
+ Col max    5     4
+
+Maximum of the row minimums = 3
+Minimum of the col maximums = 4
+
+This is an Unstable game. Saddle point does not exist. So we have to go for mixed strategies ...
+We now apply BigM method to solve the corresponding optimization problem for A and B
+
+-------------------------------------------------------------
+Solving the game for player A
+-------------------------------------------------------------
+
+Simplex Tableau after iteration 0 :
+
+  Basic      X1       X2     slack1  slack2  Solution
+    Z       -1.00   -0.00    0.00    0.00    0.00
+  slack1     1.00   -2.00    1.00    0.00    3.00
+  slack2     1.00    2.00    0.00    1.00    4.00
+
+
+
+Simplex Tableau after iteration 1 :
+
+  Basic      X1       X2     slack1  slack2  Solution
+    Z        0.00   -2.00    1.00    0.00    3.00
+    X1       1.00   -2.00    1.00    0.00    3.00
+  slack2     0.00    4.00   -1.00    1.00    1.00
+
+
+
+Simplex Tableau after iteration 2 :
+
+  Basic      X1       X2     slack1  slack2  Solution
+    Z        0.00    0.00    0.50    0.50    3.50
+    X1       1.00    0.00    0.50    0.50    3.50
+    X2       0.00    1.00   -0.25    0.25    0.25
+
+
+The optimal value of the game for A is : 3.500000
+
+With probabilities for strategies : [  A1 : 0.250000 , A2 : 0.750000]
+
+-------------------------------------------------------------
+Now solving the game for player B
+-------------------------------------------------------------
+
+Simplex Tableau after iteration 0 :
+
+  Basic      X1       X2     slack1  slack2  Solution
+    Z       -1.00   -0.00    0.00    0.00    0.00
+  slack1     1.00    3.00    1.00    0.00   -2.00
+  slack2     1.00   -1.00    0.00    1.00   -4.00
+
+
+
+Simplex Tableau after iteration 1 :
+
+  Basic      X1       X2     slack1  slack2  Solution
+    Z        0.00   -1.00    0.00    1.00   -4.00
+  slack1     0.00    4.00    1.00   -1.00    2.00
+    X1       1.00   -1.00    0.00    1.00   -4.00
+
+
+
+Simplex Tableau after iteration 2 :
+
+  Basic      X1       X2     slack1  slack2  Solution
+    Z        0.00    0.00    0.25    0.75   -3.50
+    X2       0.00    1.00    0.25   -0.25    0.50
+    X1       1.00    0.00    0.25    0.75   -3.50
+
+
+The optimal value of the game for B is : 3.500000
+
+With probabilities for strategies : [  B1 : 0.500000 , B2 : 0.500000]

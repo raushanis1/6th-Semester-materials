@@ -1,0 +1,58 @@
+Q. 1)
+
+Enter the number of variables : 3
+
+Enter the number of constraints : 4
+
+Enter 1 if it is a maximization problem, 0 otherwise : 0
+
+Enter the coefficients of the variables in objective function : 2 15 18
+
+Enter the coefficients of variables in constraint 1 : 1 -2 6
+
+Enter the type of constraint (1 for <= type , 2 for >= type , 0 for = type) : 2
+
+Enter RHS of the constraint : 10
+
+Enter the coefficients of variables in constraint 2 : 0 1 2
+
+Enter the type of constraint (1 for <= type , 2 for >= type , 0 for = type) : 1
+
+Enter RHS of the constraint : 6
+
+Enter the coefficients of variables in constraint 3 : 2 0 10
+
+Enter the type of constraint (1 for <= type , 2 for >= type , 0 for = type) : 1
+
+Enter RHS of the constraint : 19
+
+Enter the coefficients of variables in constraint 4 : 1 -1 0
+
+Enter the type of constraint (1 for <= type , 2 for >= type , 0 for = type) : 2
+
+Enter RHS of the constraint : 2
+
+ Initial Optimal Simplex Table :
+     0.00        0.00       -2.00      -15.00      -18.00        0.00    -1000.00        0.00        0.00        0.00    -1000.00        0.00        0.00
+   -18.00        3.00        0.00       -2.00        1.00       -1.00        1.00        0.00       -0.50        0.00        0.00        0.50        0.00
+     0.00        6.00        0.00        5.00        0.00        2.00       -2.00        1.00        1.00        0.00        0.00        5.00        0.00
+     0.00        8.00        0.00       11.00        0.00        5.00       -5.00        0.00        3.00        1.00       -1.00        5.00        0.00
+    -2.00        1.00        1.00       10.00        0.00        5.00       -5.00        0.00        3.00        0.00        0.00        7.00        0.00
+     0.00        0.00        0.00      -31.00        0.00       -8.00     -992.00        0.00       -3.00        0.00    -1000.00      -23.00        0.00
+
+
+Optimum value of LPP : 23.00
+The optimum occurs at : x1 = 7.00   x2 = 0.00   x3 = 0.50
+
+Simplex Table after new Gomory Cut :
+     0.00        0.00       -2.00      -15.00      -18.00        0.00    -1000.00        0.00        0.00        0.00    -1000.00        0.00    -1000.00        0.00        0.00
+   -18.00        3.00        0.00       -2.00        1.00       -1.00        1.00        0.00        0.00        0.00        0.00       -1.00        1.00        1.00        0.00
+     0.00        6.00        0.00        5.00        0.00        2.00       -2.00        1.00        0.00        0.00        0.00        2.00       -2.00        4.00        0.00
+     0.00        8.00        0.00       11.00        0.00        5.00       -5.00        0.00        0.00        1.00       -1.00        6.00       -6.00        2.00        0.00
+    -2.00        1.00        1.00       10.00        0.00        5.00       -5.00        0.00        0.00        0.00        0.00        6.00       -6.00        4.00        0.00
+     0.00        7.00        0.00        0.00        0.00        0.00        0.00        0.00        1.00        0.00        0.00       -2.00        2.00        1.00        0.00
+     0.00        0.00        0.00      -31.00        0.00       -8.00     -992.00        0.00        0.00        0.00    -1000.00       -6.00     -994.00      -26.00        0.00
+
+
+Optimum value of LPP : 26.00
+The optimum occurs at : x1 = 4.00   x2 = 0.00   x3 = 1.00

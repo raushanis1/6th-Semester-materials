@@ -1,0 +1,24 @@
+Q 2)
+
+Enter the number of variables: 2
+Enter the number of constraint equations: 3
+Enter coefficient matrix for constraints :
+
+3 1
+1 1
+1 2
+Enter the type of each constraint. Type (1 for <= type) , (2 for >= type) , (3 for = type) :
+2 2 2
+
+Enter the RHS vector for constraints :
+27 21 30
+
+Enter the coefficients of objective function :
+4 2
+
+Enter 1 if it is a maximization problem, and enter -1 if it is a minimization problem : -1
+
+The minimum value of the expression 4x1 + 2x2  is = 48.000000
+
+Obtained for the following values of xi :
+[ 3.000000 , 18.000000 ]

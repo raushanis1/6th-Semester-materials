@@ -1,0 +1,37 @@
+Q.4)
+
+Enter the number of strategies of A : 4
+
+Enter the number of strategies of B : 4
+
+Enter the pay-off matrix for A :
+
+-1 0 4 -1
+5 1 3 1
+-2 0 -1 4
+-3 -2 4 5
+
+Payoff Table for A :
+
+       B1    B2    B3    B4
+ A1    -1     0     4    -1
+ A2     5     1     3     1
+ A3    -2     0    -1     4
+ A4    -3    -2     4     5
+
+
+Table with Row minimums and Column maximums :
+
+           B1    B2    B3    B4   Row min
+     A1    -1     0     4    -1     -1
+     A2     5     1     3     1      1
+     A3    -2     0    -1     4     -2
+     A4    -3    -2     4     5     -3
+ Col max    5     1     4     5
+
+Maximum of the row minimums = 1
+Minimum of the col maximums = 1
+
+This is a Stable game. Saddle point exists, with value of the game = 1
+For this, A plays his strategy = A2
+          B plays his strategy = B2

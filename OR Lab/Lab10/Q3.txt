@@ -1,0 +1,261 @@
+Q.3)
+
+Enter the number of workers : 5
+
+Enter the number of jobs : 4
+
+Enter the cost matrix :
+57 97 56 43
+33 59 63 97
+22 22 33 11
+31 45 84 71
+98 7 90 96
+
+Input Table :
+
+       J1    J2    J3    J4    J5
+ W1    57    97    56    43     0
+ W2    33    59    63    97     0
+ W3    22    22    33    11     0
+ W4    31    45    84    71     0
+ W5    98     7    90    96     0
+
+
+Table and Row minimums :
+
+       J1    J2    J3    J4    J5   Row min
+ W1    57    97    56    43     0     0
+ W2    33    59    63    97     0     0
+ W3    22    22    33    11     0     0
+ W4    31    45    84    71     0     0
+ W5    98     7    90    96     0     0
+
+
+Updated table after subtracting Row minimums :
+
+       J1    J2    J3    J4    J5
+ W1    57    97    56    43     0
+ W2    33    59    63    97     0
+ W3    22    22    33    11     0
+ W4    31    45    84    71     0
+ W5    98     7    90    96     0
+
+
+Table and Column minimums :
+
+           J1     J2     J3     J4     J5
+    W1     57     97     56     43      0
+    W2     33     59     63     97      0
+    W3     22     22     33     11      0
+    W4     31     45     84     71      0
+    W5     98      7     90     96      0
+ Col min   22      7      33      11      0
+
+Updated table after subtracting Column minimums :
+
+       J1    J2    J3    J4    J5
+ W1    35    90    23    32     0
+ W2    11    52    30    86     0
+ W3     0    15     0     0     0
+ W4     9    38    51    60     0
+ W5    76     0    57    85     0
+
+
+Mark matrix after row scanning :
+
+Table Info for symbols used :
+M --> Marked (Boxed)  ,  X --> Crossed out  ,  O --> Unmarked
+
+ O  X  O  O  M
+ O  X  O  O  X
+ O  X  O  O  X
+ O  X  O  O  X
+ O  M  O  O  X
+
+
+Mark matrix after column scanning :
+
+Table Info for symbols used :
+M --> Marked (Boxed)  ,  X --> Crossed out  ,  O --> Unmarked
+
+ O  X  O  O  M
+ O  X  O  O  X
+ M  X  X  X  X
+ O  X  O  O  X
+ O  M  O  O  X
+
+
+Number of squares marked = 3
+
+Optimal not yet reached ...
+
+Minimum undeleted element = 9
+
+Updated table for the next iteration :
+
+       J1    J2    J3    J4    J5
+ W1    26    90    14    23     0
+ W2     2    52    21    77     0
+ W3     0    24     0     0     9
+ W4     0    38    42    51     0
+ W5    67     0    48    76     0
+
+
+Table and Row minimums :
+
+       J1    J2    J3    J4    J5   Row min
+ W1    26    90    14    23     0     0
+ W2     2    52    21    77     0     0
+ W3     0    24     0     0     9     0
+ W4     0    38    42    51     0     0
+ W5    67     0    48    76     0     0
+
+
+Updated table after subtracting Row minimums :
+
+       J1    J2    J3    J4    J5
+ W1    26    90    14    23     0
+ W2     2    52    21    77     0
+ W3     0    24     0     0     9
+ W4     0    38    42    51     0
+ W5    67     0    48    76     0
+
+
+Table and Column minimums :
+
+           J1     J2     J3     J4     J5
+    W1     26     90     14     23      0
+    W2      2     52     21     77      0
+    W3      0     24      0      0      9
+    W4      0     38     42     51      0
+    W5     67      0     48     76      0
+ Col min    0      0      0      0      0
+
+Updated table after subtracting Column minimums :
+
+       J1    J2    J3    J4    J5
+ W1    26    90    14    23     0
+ W2     2    52    21    77     0
+ W3     0    24     0     0     9
+ W4     0    38    42    51     0
+ W5    67     0    48    76     0
+
+
+Mark matrix after row scanning :
+
+Table Info for symbols used :
+M --> Marked (Boxed)  ,  X --> Crossed out  ,  O --> Unmarked
+
+ X  X  O  O  M
+ X  X  O  O  X
+ X  X  O  O  X
+ M  X  O  O  X
+ X  M  O  O  X
+
+
+Mark matrix after column scanning :
+
+Table Info for symbols used :
+M --> Marked (Boxed)  ,  X --> Crossed out  ,  O --> Unmarked
+
+ X  X  O  O  M
+ X  X  O  O  X
+ X  X  M  X  X
+ M  X  O  O  X
+ X  M  O  O  X
+
+
+Number of squares marked = 4
+
+Optimal not yet reached ...
+
+Minimum undeleted element = 14
+
+Updated table for the next iteration :
+
+       J1    J2    J3    J4    J5
+ W1    26    90     0     9     0
+ W2     2    52     7    63     0
+ W3    14    38     0     0    23
+ W4     0    38    28    37     0
+ W5    67     0    34    62     0
+
+
+Table and Row minimums :
+
+       J1    J2    J3    J4    J5   Row min
+ W1    26    90     0     9     0     0
+ W2     2    52     7    63     0     0
+ W3    14    38     0     0    23     0
+ W4     0    38    28    37     0     0
+ W5    67     0    34    62     0     0
+
+
+Updated table after subtracting Row minimums :
+
+       J1    J2    J3    J4    J5
+ W1    26    90     0     9     0
+ W2     2    52     7    63     0
+ W3    14    38     0     0    23
+ W4     0    38    28    37     0
+ W5    67     0    34    62     0
+
+
+Table and Column minimums :
+
+           J1     J2     J3     J4     J5
+    W1     26     90      0      9      0
+    W2      2     52      7     63      0
+    W3     14     38      0      0     23
+    W4      0     38     28     37      0
+    W5     67      0     34     62      0
+ Col min    0      0      0      0      0
+
+Updated table after subtracting Column minimums :
+
+       J1    J2    J3    J4    J5
+ W1    26    90     0     9     0
+ W2     2    52     7    63     0
+ W3    14    38     0     0    23
+ W4     0    38    28    37     0
+ W5    67     0    34    62     0
+
+
+Mark matrix after row scanning :
+
+Table Info for symbols used :
+M --> Marked (Boxed)  ,  X --> Crossed out  ,  O --> Unmarked
+
+ X  X  M  X  X
+ X  X  X  X  M
+ X  X  X  M  X
+ M  X  X  X  X
+ X  M  X  X  X
+
+
+Mark matrix after column scanning :
+
+Table Info for symbols used :
+M --> Marked (Boxed)  ,  X --> Crossed out  ,  O --> Unmarked
+
+ X  X  M  X  X
+ X  X  X  X  M
+ X  X  X  M  X
+ M  X  X  X  X
+ X  M  X  X  X
+
+
+Number of squares marked = 5
+
+Optimal reached ...
+
+The minimum cost for assignment of the jobs is = 105
+
+This is obtained by assigning the jobs as follows :
+Worker 1 -> Job 3
+Worker 2 -> Job 5
+Worker 3 -> Job 4
+Worker 4 -> Job 1
+Worker 5 -> Job 2
+
+where the following are dummy jobs :  J5

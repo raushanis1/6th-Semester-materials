@@ -1,0 +1,23 @@
+Q 1)
+
+Enter the number of variables: 3
+Enter the number of constraint equations: 2
+Enter coefficient matrix for constraints :
+
+1 4 2
+3 1 2
+Enter the type of each constraint. Type (1 for <= type) , (2 for >= type) , (3 for = type) :
+2 2
+
+Enter the RHS vector for constraints :
+5 4
+
+Enter the coefficients of objective function :
+2 9 1
+
+Enter 1 if it is a maximization problem, and enter -1 if it is a minimization problem : -1
+
+The minimum value of the expression 2x1 + 9x2 + 1x3  is = 2.500000
+
+Obtained for the following values of xi :
+[ 0.000000 , 0.000000 , 2.500000 ]

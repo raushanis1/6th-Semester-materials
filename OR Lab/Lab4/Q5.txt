@@ -1,0 +1,24 @@
+Q 5)
+
+Enter the number of variables: 4
+Enter the number of constraint equations: 3
+Enter coefficient matrix for constraints :
+
+1 2 3 0
+2 1 5 0
+1 2 1 1
+Enter the type of each constraint. Type (1 for <= type) , (2 for >= type) , (3 for = type) :
+3 3 3
+
+Enter the RHS vector for constraints :
+15 20 10
+
+Enter the coefficients of objective function :
+1 2 3 -1
+
+Enter 1 if it is a maximization problem, and enter -1 if it is a minimization problem : 1
+
+The maximum value of the expression 1x1 + 2x2 + 3x3 + -1x4  is = 15.000000
+
+Obtained for the following values of xi :
+[ 2.500000 , 2.500000 , 2.500000 , 0.000000 ]

@@ -1,0 +1,20 @@
+Q 6)
+
+Enter the number of variables: 3
+Enter the number of constraint equations: 2
+Enter coefficient matrix for constraints :
+
+1 -2 3
+3 2 4
+Enter the type of each constraint. Type (1 for <= type) , (2 for >= type) , (3 for = type) :
+3 3
+
+Enter the RHS vector for constraints :
+2 1
+
+Enter the coefficients of objective function :
+-2 1 3
+
+Enter 1 if it is a maximization problem, and enter -1 if it is a minimization problem : 1
+
+The LPP is infeasible

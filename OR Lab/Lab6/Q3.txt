@@ -1,0 +1,78 @@
+Q.3)
+
+Enter the number of variables: 4
+Enter the number of constraint equations: 3
+Enter coefficient matrix for constraints :
+
+10 5 25 3
+12 4 12 1
+7 0 0 1
+
+Enter the type of each constraint. Type (1 for <= type) , (2 for >= type) , (3 for = type) :
+1 1 1
+
+Enter the RHS vector for constraints :
+50 48 35
+
+Enter the coefficients of objective function :
+15 6 9 2
+
+Enter 1 if it is a maximization problem, and enter -1 if it is a minimization problem : 1
+
+#############################################################
+
+Enter 1 to view intitial tableau
+Enter 2 to see the list of basic and non-basic variables of ith iteration
+Enter 3 to print table of ith iteration
+Enter 4 to view the optimal solution
+Enter 5 to view the final tableau
+Enter 6 to Exit
+
+#############################################################
+
+Enter your choice : 1
+
+
+Initial Tableau :
+
+
+  Basic      X1       X2       X3       X4     slack1   slack2   slack3    Soln
+    Z      15.000    6.000    9.000    2.000    0.000    0.000    0.000    0.000
+  slack1   10.000    5.000   25.000    3.000    1.000    0.000    0.000   50.000
+  slack2   12.000    4.000   12.000    1.000    0.000    1.000    0.000   48.000
+  slack3    7.000    0.000    0.000    1.000    0.000    0.000    1.000   35.000
+
+#############################################################
+
+Enter 1 to view intitial tableau
+Enter 2 to see the list of basic and non-basic variables of ith iteration
+Enter 3 to print table of ith iteration
+Enter 4 to view the optimal solution
+Enter 5 to view the final tableau
+Enter 6 to Exit
+
+#############################################################
+
+Enter your choice : 4
+
+
+The maximum value of the expression 15x1 + 6x2 + 9x3 + 2x4  is = 66.000000
+
+Obtained for the following values of xi :
+[ 2.000000 , 6.000000 , 0.000000 , 0.000000 ]
+
+#############################################################
+
+Enter 1 to view intitial tableau
+Enter 2 to see the list of basic and non-basic variables of ith iteration
+Enter 3 to print table of ith iteration
+Enter 4 to view the optimal solution
+Enter 5 to view the final tableau
+Enter 6 to Exit
+
+#############################################################
+
+Enter your choice : 6
+
+
+Exiting ....

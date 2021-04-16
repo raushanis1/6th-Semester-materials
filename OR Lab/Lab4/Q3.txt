@@ -1,0 +1,24 @@
+Q 3)
+
+Enter the number of variables: 2
+Enter the number of constraint equations: 3
+Enter coefficient matrix for constraints :
+
+3 1
+4 3
+1 2
+Enter the type of each constraint. Type (1 for <= type) , (2 for >= type) , (3 for = type) :
+3 2 1
+
+Enter the RHS vector for constraints :
+3 6 4
+
+Enter the coefficients of objective function :
+-2 -1
+
+Enter 1 if it is a maximization problem, and enter -1 if it is a minimization problem : 1
+
+The maximum value of the expression -2x1 + -1x2  is = -2.400000
+
+Obtained for the following values of xi :
+[ 0.600000 , 1.200000 ]

@@ -1,0 +1,79 @@
+Q.6)
+
+Enter the number of variables: 2
+Enter the number of constraint equations: 3
+Enter coefficient matrix for constraints :
+
+3 2
+1 4
+1 1
+
+Enter the type of each constraint. Type (1 for <= type) , (2 for >= type) , (3 for = type) :
+2 2 1
+
+Enter the RHS vector for constraints :
+3 4 5
+
+Enter the coefficients of objective function :
+5 8
+
+Enter 1 if it is a maximization problem, and enter -1 if it is a minimization problem : 1
+
+#############################################################
+
+Enter 1 to view intitial tableau
+Enter 2 to see the list of basic and non-basic variables of ith iteration
+Enter 3 to print table of ith iteration
+Enter 4 to view the optimal solution
+Enter 5 to view the final tableau
+Enter 6 to Exit
+
+#############################################################
+
+Enter your choice : 1
+
+
+Initial Tableau :
+
+
+  Basic      X1       X2     slack1   slack2   slack3    Soln
+    Z       5.000    8.000    0.000    0.000    0.000    0.000
+  slack1   -3.000   -2.000    1.000    0.000    0.000   -3.000
+  slack2   -1.000   -4.000    0.000    1.000    0.000   -4.000
+  slack3    1.000    1.000    0.000    0.000    1.000    5.000
+
+#############################################################
+
+Enter 1 to view intitial tableau
+Enter 2 to see the list of basic and non-basic variables of ith iteration
+Enter 3 to print table of ith iteration
+Enter 4 to view the optimal solution
+Enter 5 to view the final tableau
+Enter 6 to Exit
+
+#############################################################
+
+
+Enter your choice : 4
+
+
+The maximum value of the expression 5x1 + 8x2  is = 40.000000
+
+Obtained for the following values of xi :
+[ 0.000000 , 5.000000 ]
+
+#############################################################
+
+Enter 1 to view intitial tableau
+Enter 2 to see the list of basic and non-basic variables of ith iteration
+Enter 3 to print table of ith iteration
+Enter 4 to view the optimal solution
+Enter 5 to view the final tableau
+Enter 6 to Exit
+
+#############################################################
+
+Enter your choice : 6
+
+
+Exiting ....
